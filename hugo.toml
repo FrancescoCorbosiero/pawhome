@@ -1,0 +1,3 @@
+baseURL = 'https://pawhome.org/'
+languageCode = 'en-us'
+title = 'PawHome'
