@@ -46,4 +46,22 @@
       width: auto;                     /* Equivalent to Tailwind's `sm:w-auto` */
     }
   }
+
   
+/* Add this CSS to your stylesheet */
+.title {
+    font-size: 1.875rem; /* 3xl */
+    font-weight: 800; /* extrabold */
+    color: white;
+  }
+  
+  @media (min-width: 640px) {
+    .title {
+      font-size: 3rem; /* 5xl */
+    }
+  }
+  
+  .highlight {
+    font-weight: 800; /* extrabold */
+    color: #f43f5e; /* rose-500 */
+  }
